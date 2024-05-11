@@ -300,3 +300,98 @@ nav span img {
 .footer-btn{
     width: 100px;
 }
+
+@media screen and (max-width: 1200px) {
+    .main-container nav{
+        max-width: 90vw;
+    }
+
+    .all-boxes-container{
+        flex-wrap: wrap;
+    }
+
+    .inner-all-boxes-text-content{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .main-container nav{
+        max-width: 95vw;
+    }
+
+    nav span img {
+        max-width: 100px;
+    }
+    
+    .nav-btn{
+        gap: 12px;
+    }
+    
+    .btn{
+        font-weight: 500;
+    }
+    
+    .btn-red{
+        padding: 5px 16px;
+    }
+    
+    .btn-black{
+        gap: 10px;
+        padding: 5px 12px;
+    }
+
+    .content h1{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    .span1{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    
+    .span2{
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .inner-all-boxes-text-content h1{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    .inner-all-boxes-text-content span{
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+    .faq{
+        width: 90vw;
+        padding: 20px;
+        font-size: 18px;
+        font-weight: 200;
+    }
+
+    .footer{
+        width: 95vw;
+    }
+    
+    .footer-list-box{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+    
+    .footer-btn{
+        width: 120px;
+    }
+
+    .faq svg{
+        width: 25px;
+        height: 25px;
+    }
+}
