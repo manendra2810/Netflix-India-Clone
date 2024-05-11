@@ -307,14 +307,7 @@ nav span img {
     }
 
     .all-boxes-container{
-        flex-wrap: wrap;
-    }
-
-    .inner-all-boxes-text-content{
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+        max-width: 95vw;
     }
 }
 
@@ -359,6 +352,17 @@ nav span img {
         font-weight: 400;
     }
 
+    .all-boxes-container{
+        flex-wrap: wrap;
+    }
+
+    .inner-all-boxes-text-content{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
     .inner-all-boxes-text-content h1{
         font-size: 30px;
         font-weight: 600;
@@ -393,5 +397,43 @@ nav span img {
     .faq svg{
         width: 25px;
         height: 25px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .btn input{
+        padding: 12px 80px 12px 12px;
+    }
+    
+    .btn button{
+        padding: 6px 12px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .all-boxes-container{
+        max-width: 95vw;
+        overflow: hidden;
+    }
+
+    .inner-all-boxes-img-vdo-content img{
+        width: 310px;
+    }
+    
+    .inner-all-boxes-img-vdo-content video{
+        width: 250px;
+    }
+    
+    .third .inner-all-boxes-img-vdo-content video{
+        width: 180px;
+        overflow: hidden;
+    }
+
+    .faq-container .content h1{
+        text-align: center;
+    }
+
+    .faq{
+        width: 80vw;
     }
 }
