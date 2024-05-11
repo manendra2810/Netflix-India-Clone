@@ -401,6 +401,18 @@ nav span img {
 }
 
 @media screen and (max-width: 500px) {
+    .main-container{
+        height: 482px;
+    }
+    
+    .main-container .bg-box{
+        height: 482px;
+    }
+    
+    .hero{
+        height: calc(482px - 90px);
+    }
+
     .btn input{
         padding: 12px 80px 12px 12px;
     }
